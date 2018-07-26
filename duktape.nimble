@@ -9,7 +9,8 @@ license       = "MIT"
 
 requires "nimgen >= 0.1.4"
 
-# skipDirs = @["tests"]
+skipDirs = @["tests","src"]
+installDirs = @["duktape"]
 
 # Dependencies
 import distros

@@ -1,4 +1,5 @@
-import ../duktape
+# import ../duktape/js
+import duktape/js
 
 # Define proc to be bound
 var println: DTCFunction = (proc (ctx: DTContext): cint{.stdcall.} =

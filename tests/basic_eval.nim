@@ -1,4 +1,5 @@
-import ../duktape
+# import ../duktape/js
+import duktape/js
 
 # Create duktape context
 var ctx = duk_create_heap_default()

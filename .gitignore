@@ -1,3 +1,4 @@
+duktape/
 nimcache
 tests/bind_proc
 tests/basic_eval
