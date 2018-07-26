@@ -17,7 +17,7 @@ Use [Nimble](https://github.com/nim-lang/nimble):
 ### Interpret Javascript expression
 
 ```nim
-import duktape
+import duktape/js
 
 # Create duktape context
 var ctx = duk_create_heap_default()
@@ -39,7 +39,7 @@ ctx.duk_destroy_heap();
 ### Bind Nim proc and call from Javascript
 
 ```nim
-import duktape
+import duktape/js
 
 # Define proc to be bound
 var println: DTCFunction = (proc (ctx: DTContext): cint{.stdcall.} =
